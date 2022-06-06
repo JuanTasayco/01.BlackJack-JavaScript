@@ -34,7 +34,7 @@ const obtenerValor=(cartaLetra)=>{
 const contenedorCards = document.querySelector(`.container-cards`);
 const pintarHTML = (cartaLetra,player)=>{ 
     const imagen = document.createElement("IMG");
-    imagen.src = `../assets/${cartaLetra}.png`;
+    imagen.src = `./assets/${cartaLetra}.png`;
     contenedorCards.children[player].appendChild(imagen);
     imagen.classList.add("player1__card");
     imagen.classList.add("img-fluid");
