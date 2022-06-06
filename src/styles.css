@@ -1,0 +1,31 @@
+
+body{
+
+    background:#37753C;
+    color:white;
+
+}
+
+:root{
+    --altura : 250px;
+
+}
+
+
+
+.container-cards__player1{
+    height:280px;
+    overflow: hidden;
+}
+.container-cards__computador{
+    height:280px;
+    overflow: hidden;
+}
+
+.player1__card{
+    height: var(--altura);
+}
+
+.computador__card{
+    height: var(--altura);
+}
